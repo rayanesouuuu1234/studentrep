@@ -1,0 +1,70 @@
+---
+comments: True
+layout: post
+title: Rayane's Lab Notebook
+description: 
+type: hacks
+courses: {'csse': {'week': 1}, 'csp': {'week': 1}, 'csa': {'week': 0}}
+categories: ['C4.1']
+---
+
+## Lab Notebook
+
+**Week 0:**
+
+$ sudo pip install yaml
+Downloading/unpacking yaml
+Could not find any downloads that satisfy the requirement yaml
+No distributions at all found for yaml
+Storing complete log in /home/pa/.pip/pip.log
+
+- **brew install libyaml**
+- **sudo python -m easy_install pyyaml**
+
+Makefile entry point not found
+
+**Week 1:** 
+
+Tech Talk: 
+“Jupyter command `jupyter-notebook` not found.
+rayanesouissi@Rayanes-MacBook-Air ~ % cd
+rayanesouissi@Rayanes-MacBook-Air ~ % cd vscode
+rayanesouissi@Rayanes-MacBook-Air vscode % cd studentrep
+rayanesouissi@Rayanes-MacBook-Air studentrep % cd _notebooks”
+
+- **Opened studentrep instead of teacher so I couldn’t find the notebook**
+
+When I executed a jupyter notebook in my virtual environment in Arch Linux, the following error occurred. Error executing Jupyter command 'notebook': [Errno 2] No such file or directory
+
+- **sudo -H pip install jupyter**
+- **pip3 install --upgrade --force-reinstall --no-cache-dir jupyter**
+
+**Week 2:**
+
+"Liquid Exception: Could not locate the included file 'nav_home.html' in any of ["/Users/rayanesouissi/vscode/studentrep/_includes", "/private/var/folders/3r/_pbvf6d522957yhk2jxc75440000gn/T/jekyll-remote-theme-20230830-32650-5kh0fr/_includes"]. Ensure it exists in one of those directories and is not a symlink as those are not allowed in safe mode. in /Users/rayanesouissi/vscode/studentrep/_posts/2023-08-29-calculator.md"
+
+- cd /Users/rayanesouissi/vscode/studentrep
+- ls _includes
+- touch _includes/nav_home.html
+- ls -la _includes
+- bundle exec jekyll build --verbose
+- jekyll build --verbose
+
+
+"Cannot read properties of null (reading 'value')"
+- **This error can occur when the JavaScript code runs before the HTML DOM is fully loaded, leading to the display being null.**
+- You can place the script at the end of the body tag or use a DOMContentLoaded event
+
+"C is not defined"
+- **This is because in the HTML, the button uses onclick="C()", but there is no function C() defined in JavaScript.**
+- The HTML should use onclick="clearDisplay()" to match the JavaScript function name.
+
+"Calculate is not defined"
+- **If for any reason the JavaScript file did not load or there was an error above this function, the JavaScript might stop processing further, making subsequent functions like calculate() undefined**
+- Fix preceding JavaScript errors to ensure that the entire script file is read and processed.
+
+"Unexpected token"
+- **Syntax errors, such as a missing bracket, can lead to this issue**
+- Correct the JavaScript syntax.
+
+

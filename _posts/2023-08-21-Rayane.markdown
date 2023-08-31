@@ -1,0 +1,151 @@
+---
+layout: post
+title:  "Rayane's Blog"
+date:   2023-08-23 10:48:02 -0700
+categories: life 
+--- 
+## **About Me**
+
+One of the interesting activities I did this summer was rebuild a school in my home country, Tunisia. Before flying over for the renovation, my father read me a verse: those who spend their wealth is that of a grain that sprouts seven ears, each bearing one hundred grains. The grain is a foundation, the first step; without action, there is no prosperity. One small step in anything can lead to a ripple that bears a stronger effect than the original. I related this idea to Steve Jobs. We wouldn't see and use Apple today if he didn't start developing computers in his garage. The same logic applies to CS. If I don't try in this course I won't be able to preform well in a future job or class that requires coding. 
+
+Apart from that, I love playing and watching soccer. I've played year-round (highschool and club) for a while and have been playing competitively since I was 6. I love watching the games with my father on our TV when I can as well. CSP is pretty new to me, but I love challenging myself and learning new things and build upon them.
+
+## **Why I love CS Tools (so far)!**
+
+### [Github](https://github.com/)
+
+- can share your code with others 
+- can dublicate (fork) code
+- collaborate with others without overwriting each other's changes
+
+### "Make" Command
+
+- automates the process of compiling and building a project
+- In just a few seconds, all your code can be translated into a working website
+
+### VS Code
+
+- wide range of extensions such as Jupyter are available that can help tailor the editor to their specific needs
+- In-built terminal streamlines my workflow.
+
+
+### Homebrew
+
+brew install package_name
+ 
+- I'm able to install, update, and manage software packages
+- fairily quick and easy to install as well 
+
+
+---
+
+<html>
+<head>
+  <title>Styled Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    #quiz-container {
+      background-color: #fff;
+      width: 500px;
+      margin: 50px auto;
+      padding: 30px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1, p {
+      margin-bottom: 20px;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    h2 {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="quiz-container">
+  <h1>A CS Quiz!</h1>
+
+  <!-- Question 1 -->
+  <p>This coding language's name can also mean "coffee"?</p>
+  <input type="radio" name="q1" value="Berlin"> Python<br>
+  <input type="radio" name="q1" value="Paris"> Java<br>
+  <input type="radio" name="q1" value="Madrid"> HTML<br>
+
+  <!-- Question 2 -->
+  <p>Which is the best, most useful class at Del Norte?</p>
+  <input type="radio" name="q2" value="Earth"> Calculus AB/BC<br>
+  <input type="radio" name="q2" value="Mars"> AP CSP/CSA <br>
+  <input type="radio" name="q2" value="Jupiter"> AP English Language and Composition <br>
+
+  <!-- Question 3 -->
+  <p>Which programming language is used for web development?</p>
+  <input type="radio" name="q3" value="Python"> Python<br>
+  <input type="radio" name="q3" value="JavaScript"> JavaScript<br>
+  <input type="radio" name="q3" value="C++"> C++<br>
+
+  <button onclick="checkAnswers()">Submit</button>
+
+  <h2 id="score"></h2>
+</div>
+
+<script>
+  function checkAnswers() {
+    let score = 0;
+
+    // Check Question 1
+    let q1 = document.getElementsByName('q1');
+    for(let i = 0; i < q1.length; i++) {
+      if(q1[i].checked && q1[i].value === 'Paris') {
+        score++;
+      }
+    }
+
+    // Check Question 2
+    let q2 = document.getElementsByName('q2');
+    for(let i = 0; i < q2.length; i++) {
+      if(q2[i].checked && q2[i].value === 'Mars') {
+        score++;
+      }
+    }
+
+    // Check Question 3
+    let q3 = document.getElementsByName('q3');
+    for(let i = 0; i < q3.length; i++) {
+      if(q3[i].checked && q3[i].value === 'JavaScript') {
+        score++;
+      }
+    }
+
+    // Show the score
+    document.getElementById('score').innerHTML = 'Your score is: ' + score + '/3';
+  }
+</script>
+
+</body>
+</html>
