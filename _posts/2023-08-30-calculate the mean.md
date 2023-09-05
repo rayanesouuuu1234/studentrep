@@ -4,7 +4,7 @@ layout: post
 title: Rayane's Mean Calculator
 description: 
 type: hacks
-courses: {'csse': {'week': 1}, 'csp': {'week': 1}, 'csa': {'week': 0}}
+courses: { csp: {week: 2, categories: [4.A]} }
 categories: ['C4.1']
 ---
 <html>

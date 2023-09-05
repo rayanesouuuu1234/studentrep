@@ -1,7 +1,7 @@
 ---
 comments: True
 layout: post
-title: Rayane's Lab Notebook
+title: Rayane's Timebox
 description: 
 type: hacks
 courses: {'csse': {'week': 1}, 'csp': {'week': 1}, 'csa': {'week': 0}}
@@ -40,6 +40,12 @@ When I executed a jupyter notebook in my virtual environment in Arch Linux, the 
 - **pip3 install --upgrade --force-reinstall --no-cache-dir jupyter**
 
 **Week 2:**
+
+**Implementation of Hacks:**
+
+- **Forked the car sales data table, replaced the data with soccer player salaries. Used CSS to customize the table (experimented with different code online).**
+
+- **JS Calculator - forked Mr. Mort's code, but it resulted in a column of numbers, and didn't really look like an actual calculator. So, I used 'border (adds a border for each button), 'padding (adds padding to make the button larger), 'font-size, 'text-align (centers the text), etc to make squares in the calculator that each have different numbers inside them.** 
 
 "Liquid Exception: Could not locate the included file 'nav_home.html' in any of ["/Users/rayanesouissi/vscode/studentrep/_includes", "/private/var/folders/3r/_pbvf6d522957yhk2jxc75440000gn/T/jekyll-remote-theme-20230830-32650-5kh0fr/_includes"]. Ensure it exists in one of those directories and is not a symlink as those are not allowed in safe mode. in /Users/rayanesouissi/vscode/studentrep/_posts/2023-08-29-calculator.md"
 

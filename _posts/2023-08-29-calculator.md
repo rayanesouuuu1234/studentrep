@@ -1,43 +1,36 @@
 ---
-comments: True
+toc: false
+comments: false
 layout: post
 title: Rayane's JS Calculator
-description: 
+description: Calculator
 type: hacks
-courses: {'csse': {'week': 1}, 'csp': {'week': 1}, 'csa': {'week': 0}}
-categories: ['C4.1']
+courses: { csp: {week: 2, categories: [4.A]} }
+categories: [C1.4]
 ---
-<!--
-Hack 0: Right justify result
-Hack 1: Test conditions on small, big, and decimal numbers, report on findings. Fix issues.
-Hack 2: Add the common math operation that is missing from calculator
-Hack 3: Implement 1 number operation (ie SQRT)
--->
-<!--
-HTML implementation of the calculator.
--->
-<!--
-    Style and Action are aligned with HRML class definitions
-    style.css contains majority of style definition (number, operation, clear, and equals)
-    - The div calculator-container sets 4 elements to a row
-    Background is credited to Vanta JS and is implemented at bottom of this page
--->
+
+
 <style>
+  .calculator-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
   .calculator-output {
-    /* calulator output
-      top bar shows the results of the calculator;
-      result to take up the entirety of the first row;
-      span defines 4 columns and 1 row
-    */
     grid-column: span 4;
     grid-row: span 1;
-    border-radius: 10px;
-    padding: 0.25em;
-    font-size: 20px;
-    border: 5px solid black;
-    display: flex;
-    align-items: center;
+
   }
+  .calculator-number,
+  .calculator-operation,
+  .calculator-clear,
+  .calculator-equals {
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+
 </style>
 <!-- Add a container for the animation -->
 <div id="animation">
