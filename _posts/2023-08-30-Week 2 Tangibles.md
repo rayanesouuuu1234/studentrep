@@ -1,45 +1,12 @@
 ---
 comments: True
 layout: post
-title: Rayane's Timebox
+title: Week 2
 description: 
-type: hacks
-courses: {'csse': {'week': 1}, 'csp': {'week': 1}, 'csa': {'week': 0}}
+type: tangibles
+courses: { csp: {week: 2, categories: [4.A]} }
 categories: ['C4.1']
 ---
-
-## Lab Notebook
-
-**Week 0:**
-
-$ sudo pip install yaml
-Downloading/unpacking yaml
-Could not find any downloads that satisfy the requirement yaml
-No distributions at all found for yaml
-Storing complete log in /home/pa/.pip/pip.log
-
-- **brew install libyaml**
-- **sudo python -m easy_install pyyaml**
-
-Makefile entry point not found
-
-**Week 1:** 
-
-Tech Talk: 
-“Jupyter command `jupyter-notebook` not found.
-rayanesouissi@Rayanes-MacBook-Air ~ % cd
-rayanesouissi@Rayanes-MacBook-Air ~ % cd vscode
-rayanesouissi@Rayanes-MacBook-Air vscode % cd studentrep
-rayanesouissi@Rayanes-MacBook-Air studentrep % cd _notebooks”
-
-- **Opened studentrep instead of teacher so I couldn’t find the notebook**
-
-When I executed a jupyter notebook in my virtual environment in Arch Linux, the following error occurred. Error executing Jupyter command 'notebook': [Errno 2] No such file or directory
-
-- **sudo -H pip install jupyter**
-- **pip3 install --upgrade --force-reinstall --no-cache-dir jupyter**
-
-**Week 2:**
 
 **Implementation of Hacks:**
 
@@ -72,5 +39,3 @@ When I executed a jupyter notebook in my virtual environment in Arch Linux, the 
 "Unexpected token"
 - **Syntax errors, such as a missing bracket, can lead to this issue**
 - Correct the JavaScript syntax.
-
-
