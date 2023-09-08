@@ -15,7 +15,7 @@ categories: ['C4.1']
 </style>
 
 <table class="table table-striped">
-    <thead style="background-color: #007bff; color: white;">
+    <thead>
         <tr>
             <th>Player Name</th>
             <th>Team</th>
