@@ -5,7 +5,7 @@ layout: post
 title: Sports Quiz
 description: None
 type: hacks
-courses: {'csse': {'week': 1}, 'csp': {'week': 2, 'categories': ['4.A']}, 'csa': {'week': 0}}
+courses: {'csse': {'week': 1}, 'csp': {'week': 3, 'categories': ['4.A']}, 'csa': {'week': 0}}
 categories: ['C1.4']
 ---
 

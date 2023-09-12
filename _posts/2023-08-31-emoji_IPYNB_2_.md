@@ -4,7 +4,7 @@ comments: True
 layout: post
 title: Emoji
 description: None
-courses: {'csp': {'week': 3}}
+courses: {'csp': {'week': 2}}
 type: hacks
 ---
 
