@@ -87,7 +87,7 @@ categories: [C1.4]
       });
     });
 
-// Number action
+
     function number(value) {
       if (value != ".") {
         if (nextReady == true) {
