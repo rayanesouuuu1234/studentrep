@@ -314,17 +314,37 @@ console.log(obj);
 
 ```python
 %%js
+
+// Define the 'obj' object to represent a profile with various properties
 var obj = {
     name: "Rayane",
     age: 17,
     sport: "Soccer",
     favoriteclass: "CSP",
-    favoritecolor: "green"};
-console.log(obj);
-console.log(5+5);
-console.log(typeof 42);
-console.log(typeof 'soccer');
-console.log(typeof true);
+    favoritecolor: "green"
+};
+
+// Function to display the profile and other info in a structured manner
+function displayProfile(profile) {
+    console.log("------------- Profile -------------");
+    console.log("Name: " + profile.name);
+    console.log("Age: " + profile.age);
+    console.log("Favorite Sport: " + profile.sport);
+    console.log("Favorite Class: " + profile.favoriteclass);
+    console.log("Favorite Color: " + profile.favoritecolor);
+    console.log("----------------------------------\n");
+
+    // Demonstrate basic calculation
+    console.log("Simple Calculation: 5 + 5 = " + (5 + 5));
+    console.log("Type of 42 is: " + typeof 42);
+    console.log("Type of 'soccer' is: " + typeof 'soccer');
+    console.log("Type of true is: " + typeof true);
+    console.log("----------------------------------\n");
+}
+
+// Call the function to display the information
+displayProfile(obj);
+
 ```
 
 

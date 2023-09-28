@@ -353,10 +353,10 @@ if (age1 > age2) {
 %%js  
 
 // Assign the value 2 to the variable x
-x = 2;
+var x = 2;
 
 // Assign the value 4 to the variable y
-y = 4;
+var y = 4;
 
 // Check if the value of x is greater than the value of y
 if (x > y) {
