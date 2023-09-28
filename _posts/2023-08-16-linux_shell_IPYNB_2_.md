@@ -82,8 +82,8 @@ echo "Directory $project exists."
 ```
 
     Using conditional statement to create a project directory and project
-    Directory /Users/johnmortensen/vscode exists.
-    Directory /Users/johnmortensen/vscode/teacher exists.
+    Directory /Users/rayanesouissi/vscode exists.
+    Directory /Users/rayanesouissi/vscode/teacher exists.
 
 
 ### Look at files Github project
@@ -112,7 +112,7 @@ ls
 ```
 
     Navigate to project, then navigate to area wwhere files were cloned
-    /Users/johnmortensen/vscode/teacher
+    /Users/rayanesouissi/vscode/teacher
     
     list top level or root of files with project pulled from github
     Gemfile
@@ -127,13 +127,13 @@ ls
     [34m_notebooks[m[m
     [34m_posts[m[m
     [34m_site[m[m
+    [34massets[m[m
     csa.md
     csp.md
     csse.md
     [34mimages[m[m
     index.md
     indexBlogs.md
-    nohup.out
     [34mscripts[m[m
 
 
@@ -159,35 +159,35 @@ ls -al   # all files -a (hidden) in -l long listing
 ```
 
     Navigate to project, then navigate to area wwhere files were cloned
-    /Users/johnmortensen/vscode/teacher
+    /Users/rayanesouissi/vscode/teacher
     
     list all files in long format
     total 120
-    drwxr-xr-x  25 johnmortensen  staff   800 Jun 11 09:06 [34m.[m[m
-    drwxr-xr-x  61 johnmortensen  staff  1952 Jun 11 04:39 [34m..[m[m
-    drwxr-xr-x  16 johnmortensen  staff   512 Jun 11 09:09 [34m.git[m[m
-    drwxr-xr-x   3 johnmortensen  staff    96 Jun 11 04:39 [34m.github[m[m
-    -rw-r--r--   1 johnmortensen  staff    37 Jun 11 04:39 .gitignore
-    -rw-r--r--   1 johnmortensen  staff    73 Jun 11 04:39 Gemfile
-    -rw-r--r--   1 johnmortensen  staff  7309 Jun 11 04:39 Gemfile.lock
-    -rw-r--r--   1 johnmortensen  staff  1081 Jun 11 04:39 LICENSE
-    -rw-r--r--   1 johnmortensen  staff  1318 Jun 11 04:39 Makefile
-    -rw-r--r--   1 johnmortensen  staff  1373 Jun 11 04:39 README.md
-    -rw-r--r--   1 johnmortensen  staff   405 Jun 11 06:46 _config.yml
-    drwxr-xr-x   6 johnmortensen  staff   192 Jun 11 04:39 [34m_data[m[m
-    drwxr-xr-x   9 johnmortensen  staff   288 Jun 11 04:39 [34m_includes[m[m
-    drwxr-xr-x   6 johnmortensen  staff   192 Jun 11 04:39 [34m_layouts[m[m
-    drwxr-xr-x  11 johnmortensen  staff   352 Jun 11 08:33 [34m_notebooks[m[m
-    drwxr-xr-x  12 johnmortensen  staff   384 Jun 11 08:52 [34m_posts[m[m
-    drwxr-xr-x  21 johnmortensen  staff   672 Jun 11 10:35 [34m_site[m[m
-    -rw-r--r--   1 johnmortensen  staff    92 Jun 11 04:39 csa.md
-    -rw-r--r--   1 johnmortensen  staff    98 Jun 11 04:39 csp.md
-    -rw-r--r--   1 johnmortensen  staff   108 Jun 11 04:39 csse.md
-    drwxr-xr-x  12 johnmortensen  staff   384 Jun 11 04:39 [34mimages[m[m
-    -rw-r--r--   1 johnmortensen  staff  5122 Jun 11 04:39 index.md
-    -rw-r--r--   1 johnmortensen  staff    53 Jun 11 04:39 indexBlogs.md
-    -rw-------   1 johnmortensen  staff  2307 Jun 11 10:35 nohup.out
-    drwxr-xr-x   3 johnmortensen  staff    96 Jun 11 04:39 [34mscripts[m[m
+    drwxr-xr-x  25 rayanesouissi  staff   800 Sep 15 10:39 [34m.[m[m
+    drwxr-xr-x   5 rayanesouissi  staff   160 Aug 16 22:00 [34m..[m[m
+    drwxr-xr-x  14 rayanesouissi  staff   448 Sep 20 11:30 [34m.git[m[m
+    drwxr-xr-x   3 rayanesouissi  staff    96 Aug 16 21:48 [34m.github[m[m
+    -rw-r--r--   1 rayanesouissi  staff   176 Sep  5 09:58 .gitignore
+    -rw-r--r--   1 rayanesouissi  staff   122 Aug 16 21:48 Gemfile
+    -rw-r--r--   1 rayanesouissi  staff  7348 Sep  5 10:00 Gemfile.lock
+    -rw-r--r--   1 rayanesouissi  staff  1081 Aug 16 21:48 LICENSE
+    -rw-r--r--   1 rayanesouissi  staff  3136 Sep  5 09:58 Makefile
+    -rw-r--r--   1 rayanesouissi  staff  6853 Sep  5 09:58 README.md
+    -rw-r--r--   1 rayanesouissi  staff   607 Aug 16 21:48 _config.yml
+    drwxr-xr-x   6 rayanesouissi  staff   192 Aug 16 21:48 [34m_data[m[m
+    drwxr-xr-x  13 rayanesouissi  staff   416 Sep 15 10:39 [34m_includes[m[m
+    drwxr-xr-x   6 rayanesouissi  staff   192 Sep  5 09:58 [34m_layouts[m[m
+    drwxr-xr-x  65 rayanesouissi  staff  2080 Sep 20 11:30 [34m_notebooks[m[m
+    drwxr-xr-x  69 rayanesouissi  staff  2208 Sep 15 10:39 [34m_posts[m[m
+    drwxr-xr-x  32 rayanesouissi  staff  1024 Sep  5 10:00 [34m_site[m[m
+    drwxr-xr-x   4 rayanesouissi  staff   128 Aug 16 21:48 [34massets[m[m
+    -rw-r--r--   1 rayanesouissi  staff    92 Aug 16 21:48 csa.md
+    -rw-r--r--   1 rayanesouissi  staff    98 Aug 16 21:48 csp.md
+    -rw-r--r--   1 rayanesouissi  staff   108 Aug 16 21:48 csse.md
+    drwxr-xr-x  40 rayanesouissi  staff  1280 Sep 15 10:39 [34mimages[m[m
+    -rw-r--r--   1 rayanesouissi  staff  5162 Sep 15 10:39 index.md
+    -rw-r--r--   1 rayanesouissi  staff    53 Aug 16 21:48 indexBlogs.md
+    drwxr-xr-x   9 rayanesouissi  staff   288 Sep  5 09:59 [34mscripts[m[m
 
 
 
@@ -205,18 +205,75 @@ ls -l  # list posts
 ```
 
     Look for posts
-    /Users/johnmortensen/vscode/teacher/_posts
-    total 224
-    -rw-r--r--  1 johnmortensen  staff   8086 Jun 11 09:06 2023-05-30-linux_shell_IPYNB_2_.md
-    -rw-r--r--  1 johnmortensen  staff   3878 Jun 11 08:49 2023-05-30-pair_programming.md
-    -rw-r--r--  1 johnmortensen  staff   5552 Jun 11 09:06 2023-05-31-VSCode-GitHub-project_IPYNB_2_.md
-    -rw-r--r--  1 johnmortensen  staff   6271 Jun 11 09:06 2023-06-01-javascript-input_IPYNB_2_.md
-    -rw-r--r--  1 johnmortensen  staff   8702 Jun 11 09:06 2023-06-01-python_hello_IPYNB_2_.md
-    -rw-r--r--  1 johnmortensen  staff  24393 Jun 11 09:06 2023-06-02-javascript_output_IPYNB_2_.md
-    -rw-r--r--  1 johnmortensen  staff  11097 Jun 11 09:06 2023-06-03-javascript_api_IPYNB_2_.md
-    -rw-r--r--  1 johnmortensen  staff  15072 Jun 11 09:06 2023-06-04-AWS-deployment_IPYNB_2_.md
-    -rw-r--r--  1 johnmortensen  staff   5215 Jun 11 08:51 2023-06-04-javascript-animation-mario-oop.md
-    -rw-r--r--  1 johnmortensen  staff  12219 Jun 11 09:06 2023-06-08-JWT-python_IPYNB_2_.md
+    /Users/rayanesouissi/vscode/teacher/_posts
+    total 1720
+    -rw-r--r--  1 rayanesouissi  staff  61997 Sep  5 09:59 2023-07-15-machine_learning_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  35434 Sep  5 09:59 2023-07-29-cloud-workspace-automation_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   9659 Sep  5 09:59 2023-07-29-cloud_database_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   2811 Sep  5 09:59 2023-07-30-mario_overview_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   7060 Sep  5 09:59 2023-08-01-mario_player_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  10258 Sep  5 09:59 2023-08-02-mario_platform_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  16451 Sep  5 09:59 2023-08-03-mario_tube_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  18874 Sep  5 09:59 2023-08-04-mario_block_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  19318 Sep  5 09:59 2023-08-05-mario_goomba_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  22629 Sep  5 09:59 2023-08-06-mario_background_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   7827 Sep  5 09:59 2023-08-15-java-hello_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   7685 Aug 16 21:48 2023-08-16-Tools_Equipment.md
+    -rw-r--r--  1 rayanesouissi  staff  20405 Sep  5 09:59 2023-08-16-github_pages_setup_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  10337 Sep  5 09:59 2023-08-16-linux_shell_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   4650 Sep  5 09:58 2023-08-16-pair_programming.md
+    -rw-r--r--  1 rayanesouissi  staff   8691 Sep  5 09:59 2023-08-16-python_hello_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   7139 Sep  5 09:58 2023-08-17-markdown-html_fragments.md
+    -rw-r--r--  1 rayanesouissi  staff   4687 Sep  5 09:58 2023-08-21-python_flask.md
+    -rw-r--r--  1 rayanesouissi  staff   8841 Sep  5 09:59 2023-08-23-github_pages_anatomy_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  18680 Sep  5 09:59 2023-08-23-java-console_games_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   6670 Sep  5 09:58 2023-08-23-javascript-calculator.md
+    -rw-r--r--  1 rayanesouissi  staff   6505 Sep  5 09:59 2023-08-23-python_tricks_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   6316 Sep  5 09:59 2023-08-29-basics-of-js_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  11341 Sep 15 10:39 2023-08-30-agile_methodolgy.md
+    -rw-r--r--  1 rayanesouissi  staff   4397 Sep 15 10:39 2023-08-30-javascript-music-api.md
+    -rw-r--r--  1 rayanesouissi  staff   2336 Sep  5 09:59 2023-08-30-javascript_grab_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   5592 Sep  5 09:59 2023-08-30-js-with-html_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   8735 Sep  5 09:59 2023-08-30-showcase-S1-pair_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  10874 Sep  5 09:59 2023-09-06-java-primitives_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   8046 Sep  5 09:59 2023-09-06-javascript-input_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   5312 Sep  5 09:58 2023-09-06-javascript-motion-mario-oop.md
+    -rw-r--r--  1 rayanesouissi  staff  10350 Sep  5 10:00 2023-09-06-javascript-output-jquery_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   5500 Sep  5 10:00 2023-09-06-python-flask_in_jupyter_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff    263 Sep 15 10:39 2023-09-10-users-db.md
+    -rw-r--r--  1 rayanesouissi  staff  11627 Sep  5 10:00 2023-09-12-AP-python_lists_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  10489 Sep  5 10:00 2023-09-12-java_menu_class_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   1878 Sep 15 10:39 2023-09-12-javascript-calculator-reviews.md
+    -rw-r--r--  1 rayanesouissi  staff   5212 Sep  5 10:00 2023-09-12-python-flask-anatomy_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   3688 Sep  5 09:58 2023-09-12-python-flask-repo.md
+    -rw-r--r--  1 rayanesouissi  staff   2845 Sep 15 10:39 2023-09-12-unit-1-summary.md
+    -rw-r--r--  1 rayanesouissi  staff   6708 Sep  5 10:00 2023-09-13-java_fibonaccii_class_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  24360 Sep  5 10:00 2023-09-13-javascript_output_api_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   4737 Sep  5 10:00 2023-09-13-python-errors_fries_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  21670 Sep  5 10:00 2023-09-13-python-pandas_intro_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   5256 Sep 15 10:39 2023-09-14-java-free_response.md
+    -rw-r--r--  1 rayanesouissi  staff   6173 Sep 15 10:39 2023-09-14-javascript-binary-U2-1.md
+    -rw-r--r--  1 rayanesouissi  staff    804 Sep 15 10:39 2023-09-15-java-free_response_showcase.md
+    -rw-r--r--  1 rayanesouissi  staff  17201 Sep  5 10:00 2023-09-17-python-images-U2-2_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  24421 Sep  5 10:00 2023-09-18-python-pandas-U2-3_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  27805 Sep  5 10:00 2023-09-19-python-sql-U2-4a_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   7491 Sep  5 10:00 2023-09-19-python-sql-U2-4b_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   8410 Sep  5 10:00 2023-09-20-java-image_2D_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  19197 Sep  5 10:00 2023-09-20-javascript_motion_dog_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  16463 Sep  5 10:00 2023-09-27-aws-deployment_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff    371 Sep 15 10:39 2023-09-28-java-spring-passion-idea.md
+    -rw-r--r--  1 rayanesouissi  staff    385 Sep 15 10:39 2023-09-28-java-spring_passion.md
+    -rw-r--r--  1 rayanesouissi  staff   2404 Sep 15 10:39 2023-09-28-java-student-teach-tri1.md
+    -rw-r--r--  1 rayanesouissi  staff   9963 Sep  5 10:00 2023-10-02-java-spring-anatomy_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   9823 Sep  5 10:00 2023-10-09-java-chatgpt_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  11058 Sep  5 10:00 2023-10-09-javascript_api_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  21533 Sep  5 10:00 2023-10-09-python_machine_learing_fitness_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  13219 Sep  5 09:58 2023-10-16-java-api-pojo-jpa.md
+    -rw-r--r--  1 rayanesouissi  staff  13998 Sep  5 10:00 2023-10-16-java_jpa_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   6819 Aug 16 21:48 2023-11-13-jwt-java-spring.md
+    -rw-r--r--  1 rayanesouissi  staff  12219 Sep  5 10:00 2023-11-13-jwt-python-flask_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff  12279 Sep  5 10:00 2023-11-13-vulnerabilities_IPYNB_2_.md
+    -rw-r--r--  1 rayanesouissi  staff   6686 Sep  5 10:00 2024-01-04-cockpit-setup_IPYNB_2_.md
 
 
 
@@ -234,16 +291,70 @@ ls -l  # list notebooks
 ```
 
     Look for notebooks
-    /Users/johnmortensen/vscode/teacher/_notebooks
-    total 344
-    -rw-r--r--  1 johnmortensen  staff  37377 Jun 11 10:35 2023-05-30-linux_shell.ipynb
-    -rw-r--r--  1 johnmortensen  staff   7706 Jun 11 09:04 2023-05-31-VSCode-GitHub-project.ipynb
-    -rw-r--r--  1 johnmortensen  staff   9292 Jun 11 08:47 2023-06-01-javascript-input.ipynb
-    -rw-r--r--  1 johnmortensen  staff  11477 Jun 11 04:39 2023-06-01-python_hello.ipynb
-    -rw-r--r--  1 johnmortensen  staff  44353 Jun 11 08:06 2023-06-02-javascript_output.ipynb
-    -rw-r--r--  1 johnmortensen  staff  15666 Jun 11 08:48 2023-06-03-javascript_api.ipynb
-    -rw-r--r--  1 johnmortensen  staff  20550 Jun 11 09:06 2023-06-04-AWS-deployment.ipynb
-    -rw-r--r--  1 johnmortensen  staff  16271 Jun 11 04:39 2023-06-08-JWT-python.ipynb
+    /Users/rayanesouissi/vscode/teacher/_notebooks
+    total 4040
+    -rw-r--r--  1 rayanesouissi  staff  992100 Sep  5 09:58 2023-07-15-machine_learning.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   43705 Sep  5 09:58 2023-07-29-cloud-workspace-automation.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    3584 Sep  5 09:58 2023-07-30-mario_overview.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   10600 Sep  5 09:58 2023-08-01-mario_player.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   14783 Sep  5 09:58 2023-08-02-mario_platform.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   22612 Sep  5 09:58 2023-08-03-mario_tube.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   25779 Sep  5 09:58 2023-08-04-mario_block.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   26462 Sep  5 09:58 2023-08-05-mario_goomba.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   30617 Sep  5 09:58 2023-08-06-mario_background.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   10283 Sep  5 09:58 2023-08-15-java-hello.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   26361 Sep  5 09:58 2023-08-16-github_pages_setup.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   16156 Sep  5 09:58 2023-08-16-linux_shell.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   11466 Sep 15 10:39 2023-08-16-python_hello.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   11158 Sep  5 09:58 2023-08-23-github_pages_anatomy.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   23636 Sep  5 09:58 2023-08-23-java-console_games.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    9663 Sep  5 09:58 2023-08-23-python_tricks.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    1091 Sep 15 10:39 2023-08-28-basics-home.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    4012 Sep 15 10:39 2023-08-28-basics-html.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   11924 Sep 15 10:39 2023-08-29-basics-of-js.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   18177 Sep 15 10:39 2023-08-30-basics-js-data-types.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   16262 Sep 15 10:39 2023-08-30-basics-js-with-html.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    3214 Sep  5 09:58 2023-08-30-javascript_grab.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    9689 Aug 16 21:48 2023-08-30-showcase-S1-pair.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   15223 Sep 15 10:39 2023-09-06-java-primitives.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   12695 Sep 15 10:39 2023-09-06-javascript-input.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   14906 Sep  7 09:55 2023-09-06-javascript-output-jquery.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   10023 Sep 20 11:30 2023-09-06-python-flask_in_jupyter.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   13709 Sep 15 10:39 2023-09-12-java_menu_class.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    7174 Sep  5 09:58 2023-09-12-python-flask-anatomy.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   13183 Sep 15 10:39 2023-09-12-python_lists.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    9841 Sep 15 10:39 2023-09-13-java_fibonaccii_class.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   25234 Sep 15 10:39 2023-09-13-javascript_output_objects.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   43423 Aug 16 21:48 2023-09-13-python-pandas_intro.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    8478 Sep 21 10:03 2023-09-15-1_4-python-errors.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   22317 Sep 15 10:39 2023-09-17-python-images-U2-2.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   34768 Sep 15 10:39 2023-09-18-python-pandas-U2-3.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   49090 Sep 15 10:39 2023-09-19-python-sql-U2-4a.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   11550 Sep 15 10:39 2023-09-19-python-sql-U2-4b.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   11584 Sep 15 10:39 2023-09-20-java-image_2D.ipynb
+    -rw-r--r--  1 rayanesouissi  staff    4616 Sep 15 10:39 2023-09-20-spritesheet_animation.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   24663 Sep 15 10:39 2023-09-21-javascript_motion_dog.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   22157 Sep 15 10:39 2023-09-27-aws-deployment.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   13599 Sep  5 09:58 2023-10-02-java-spring-anatomy.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   12429 Sep 15 10:39 2023-10-09-java-chatgpt.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   15632 Aug 16 21:48 2023-10-09-javascript_api.ipynb
+    -rw-r--r--  1 rayanesouissi  staff  113091 Aug 16 21:48 2023-10-09-python_machine_learing_fitness.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     562 Sep 15 10:39 2023-10-16-java-u1-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     542 Sep 15 10:39 2023-10-16-java-u2-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     729 Sep 15 10:39 2023-10-16-java-u3-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     543 Sep 15 10:39 2023-10-16-java-u4-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     543 Sep 15 10:39 2023-10-16-java-u5-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     544 Sep 15 10:39 2023-10-16-java-u6-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     542 Sep 15 10:39 2023-10-16-java-u7-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     567 Sep 15 10:39 2023-10-16-java-u8-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     541 Sep 15 10:39 2023-10-16-java-u9-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   20077 Sep  5 09:58 2023-10-16-java_jpa.ipynb
+    -rw-r--r--  1 rayanesouissi  staff     564 Sep 15 10:39 2023-10-17-java-u10-student.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   16271 Aug 16 21:48 2023-11-13-jwt-python-flask.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   15951 Aug 16 21:48 2023-11-13-vulnerabilities.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   18328 Aug 16 21:48 2023-11-20-jwt-java-spring-challenge.md
+    -rw-r--r--  1 rayanesouissi  staff   10745 Aug 16 21:48 2024-01-04-cockpit-setup.ipynb
+    drwxr-xr-x  3 rayanesouissi  staff      96 Aug 16 21:48 [34mfiles[m[m
 
 
 
@@ -260,21 +371,21 @@ ls -l
 ```
 
     Look for images in notebooks, print working directory, list files
-    /Users/johnmortensen/vscode/teacher/_notebooks
+    /Users/rayanesouissi/vscode/studentrep/_notebooks
 
 
     bash: line 6: cd: /images: No such file or directory
 
 
-    total 344
-    -rw-r--r--  1 johnmortensen  staff  37377 Jun 11 10:35 2023-05-30-linux_shell.ipynb
-    -rw-r--r--  1 johnmortensen  staff   7706 Jun 11 09:04 2023-05-31-VSCode-GitHub-project.ipynb
-    -rw-r--r--  1 johnmortensen  staff   9292 Jun 11 08:47 2023-06-01-javascript-input.ipynb
-    -rw-r--r--  1 johnmortensen  staff  11477 Jun 11 04:39 2023-06-01-python_hello.ipynb
-    -rw-r--r--  1 johnmortensen  staff  44353 Jun 11 08:06 2023-06-02-javascript_output.ipynb
-    -rw-r--r--  1 johnmortensen  staff  15666 Jun 11 08:48 2023-06-03-javascript_api.ipynb
-    -rw-r--r--  1 johnmortensen  staff  20550 Jun 11 09:06 2023-06-04-AWS-deployment.ipynb
-    -rw-r--r--  1 johnmortensen  staff  16271 Jun 11 04:39 2023-06-08-JWT-python.ipynb
+    total 152
+    -rw-r--r--  1 rayanesouissi  staff   5838 Sep 27 23:47 2023-08-16-JS-Basics-Test.ipynb
+    -rw-r--r--  1 rayanesouissi  staff  32137 Sep  7 09:54 2023-08-16-linux_shell.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   5415 Aug 16 22:00 2023-08-17-AP-pseudo-vs-python.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   8615 Aug 16 22:00 2023-08-21-VSCode-GitHub_Pages.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   1394 Sep 12 08:46 2023-08-31-emoji.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   2103 Sep 11 09:52 2023-08-31-soccer-player-salaries-csv.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   2819 Sep 11 21:51 2023-09-06-Sports-Quiz.ipynb
+    -rw-r--r--  1 rayanesouissi  staff   2682 Sep 21 09:58 2023-09-14-team-test-identifying-errors.ipynb
 
 
 ### Look inside a Markdown File
@@ -302,36 +413,114 @@ echo "end of README.md"
     Navigate to project, then navigate to area wwhere files were cloned
     show the contents of README.md
     
-    ## Blog site using GitHub Pages and Jekyll
-    > This site is intended for Teachers.   This is to build lessons and distribute across different sections.
-    - This support 3 computer science sections that are in a pathway (JavaScript, Python/Flask, Java/Spring)
-    - JavaScript documents are new material for entry class into the pathway, they are prerequisites for the Python and Java classes.
-    - All course material works off of Notebooks using Python kernel, except Java which requires it own kernel.
+    ## Teacher Blog site
+    This site is intended for the development of Teacher content.  This blogging site is built using GitHub Pages [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+    - The purpose is to build lessons and distribute across different Computer Science sections (CSSE, CSP, CSA), a pathway that covers 3 years of High School instruction.
+    - The primary languages and frameworks that are taught are `JavaScript/HTML/CSS`, `Python/Flask`, `Java/Spring`.  Read below for more details.
+    - In this course, Teacher content is not exclusively developed by Teachers.  In fact, many Students have been invited to develop and publish content into this repository.  Their names will appear as authors on the content which they aided in producing.
+    - This site has incorporated ideas and has radically modified scripts from the now deprecated [fastpages](https://github.com/fastai/fastpages) repository.
+    - This site includes assistance and guideance from ChatGPT, [chat.openai.com](https://chat.openai.com/) 
     
-    ## Preview Site 
-    > GitHub Pages development is optimized by testing and developing on your local machine.  This is called previewing you work, prior to commit and push. 
-    - GitHub setup for, [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).  After requirements are met for Jekyll and Ruby you need to install requirements for project.
+    ### Courses and Pathway
+    The focus of the Del Norte Computer Science three-year pathway is `Full Stack Web Development`.  This focus provides a variety of technologies and exposures.  The intention of the pathway is breadth and exposure.
+    - `JavaScript` documents are focused on frontend development and for entry class into the Del Norte Computer Science pathway.  JavaScript documents and materials are a prerequisites to Python and Java classes.
+    - `Python` documents are focused on backend development and requirements for the AP Computer Science Principles exam.
+    - `Java` documents are focused on backend development and requirements for the AP Computer Sciene A exam.
+    - `Data Structures` materials embedded into JavaScript, Python, or Java documents are focused on college course articulation.
+    
+    ### Resources and Instruction
+    The materials, such as this README, as well as `Tools`, `DevOps`, and `Collaboration` resources are integral part of this course and Computer Science in general.  Everything in our environment is part of our learning of Computer Science. 
+    - `Visual Studio Code` is key the code-build-debug cycle editor used in this course, [VSCode download](https://code.visualstudio.com/).  This is an example of a resource, but inside of it it has features for collaboration.
+    - `Tech Talks`, aka lectures, are intended to be interactive and utilize `Jupyter Notebooks` and Websites.  This is an example of blending instruction and tools together, which in turn provide additional resources for learning.  For instance, deep knowledge on  GitHub Pages and Notebooks are valuable in understanding principles behind Full Stack Development and Data Science. 
+    
+    ## GitHub Pages
+    All `GitHub Pages` websites are managed on GitHub infrastructure. GitHub uses `Jekyll` to tranform your content into static websites and blogs. Each time we change files in GitHub it initiates a GitHub Action that rebuilds and publishes the site with Jekyll.  
+    - GitHub Pages is powered by: [Jekyll](https://jekyllrb.com/).
+    - Publised teacher website: [nighthawkcoders.github.io/teacher](https://nighthawkcoders.github.io/teacher/)
+    
+    ## Preparing a Preview Site 
+    In all development, it is recommended to test your code before deployment.  The GitHub Pages development process is optimized by testing your development on your local machine, prior to files on GitHub
+    
+    Development Cycle. For GitHub pages, the tooling described below will create a development cycle  `make-code-save-preview`.  In the development cycle, it is a requirement to preview work locally, prior to doing a VSCode `commit` to git.
+    
+    Deployment Cycle.  In the deplopyment cycle, `sync-github-action-review`, it is a requirement to complete the development cycle prior to doing a VSCode `sync`.  The sync triggers github repository update.  The action starts the jekyll build to publish the website.  Any step can have errors and will require you to do a review.
+    
+    ### WSL and/or Ubuntu installation requirements
+    - The result of these step is Ubuntu tools to run preview server.  These procedures were created using [jekyllrb.com](https://jekyllrb.com/docs/installation/ubuntu/)
     ```bash
-    bundle install
+    # 
+    # WSL/Ubuntu setup
+    #
+    mkdir mkdir vscode
+    git clone https://github.com/nighthawkcoders/teacher.git
+    # run script, path vscode/teacher are baked in script
+    ~/vscode/teacher/scripts/activate_ubuntu.sh
+    #=== !!!Start a new Terminal!!! ===
+    #=== Continue to next section ===
     ```
-    - Now the project is ready for preview.  To simplify typing and sharing logging the details for running have be place in a ```Makefile```
-        - run preview server
+    
+    ### MacOs installation requirements 
+    - Ihe result of these step are MacOS tools to run preview server.  These procedures were created using [jekyllrb.com](https://jekyllrb.com/docs/installation/macos/). 
+    
+    ```bash
+    # 
+    # MacOS setup
+    #
+    mkdir mkdir vscode
+    git clone https://github.com/nighthawkcoders/teacher.git
+    # run script, path vscode/teacher are baked in script
+    ~/vscode/teacher/scripts/activate_macos.sh
+    #=== !!!Start a new Terminal!!! ===
+    #=== Continue to next section ===
+    ```
+    
+    
+    ### Run Preview Server
+    - The result of these step is server running on: http://0.0.0.0:4100/teacher/.  Regeneration messages will run in terminal on any save and update site upon refresh.  Terminal is active, press the Enter or Return key in the terminal at any time to see prompt to enter commands.
+    
+    - Complete installation
+    ```bash
+    cd ~/vscode/teacher
+    bundle install
+    make
+    ```
+    - Run Server.  This requires running terminal commands `make`, `make stop`, `make clean`, or `make convert` to manage the running server.  Logging of details will appear in terminal.   A `Makefile` has been created in project to support commands and start processes.
+    
+        - Start preview server in terminal
         ```bash
+        cd ~/vscode/teacher  # my project location, adapt as necessary
         make
         ```
-        - stop preview server
+    
+        - Terminal output of shows server address. Cmd or Ctl click http location to open preview server in browser. Example Server address message... 
+        ```
+        Server address: http://0.0.0.0:4100/teacher/
+        ```
+    
+        - Save on ipynb or md activiates "regeneration". Refresh browser to see updates. Example terminal message...
+        ```
+        Regenerating: 1 file(s) changed at 2023-07-31 06:54:32
+            _notebooks/2024-01-04-cockpit-setup.ipynb
+        ```
+    
+        - Terminal message are generated from background processes.  Click return or enter to obtain prompt and use terminal as needed for other tasks.  Alway return to root of project `cd ~/vscode/teacher` for all "make" actions. 
+            
+    
+        - Stop preview server, but leave constructed files in project for your review.
         ```bash
         make stop
         ```
-        - test notebook conversions
-        ```bash
-        make convert
-        ```
-        - clean constructed files
+    
+        - Stop server and "clean" constructed files, best choice when renaming files to eliminate potential duplicates in constructed files.
         ```bash
         make clean
         ```
     
+        - Test notebook conversions, best choice to see if IPYNB conversion is acting up.
+        ```bash
+        make convert
+        ```
+        
     end of README.md
 
 
@@ -357,64 +546,49 @@ env
 
     Show the shell environment variables, key on left of equal value on right
     
-    VSCODE_CLI=1
-    NIX_PROFILES=/nix/var/nix/profiles/default /Users/johnmortensen/.nix-profile
+    MANPATH=/usr/local/share/man::
     VSCODE_CRASH_REPORTER_PROCESS_TYPE=extensionHost
-    TERM_PROGRAM=Apple_Terminal
     TERM=xterm-color
-    SHELL=/bin/bash
+    SHELL=/bin/zsh
     CLICOLOR=1
-    VSCODE_CRASH_REPORTER_SANDBOXED_HINT=1
-    TMPDIR=/var/folders/_n/7k1b0n557ng0fkmw74pd5cx00000gn/T/
-    CONDA_SHLVL=1
+    TMPDIR=/var/folders/3r/_pbvf6d522957yhk2jxc75440000gn/T/
+    HOMEBREW_REPOSITORY=/usr/local/Homebrew
     PYTHONUNBUFFERED=1
-    TERM_PROGRAM_VERSION=447
-    CONDA_PROMPT_MODIFIER=(base) 
     ORIGINAL_XDG_CURRENT_DESKTOP=undefined
     MallocNanoZone=0
     PYDEVD_USE_FRAME_EVAL=NO
-    TERM_SESSION_ID=9056DE5B-8519-46AC-8C0A-42B5FFE425B9
     PYTHONIOENCODING=utf-8
-    USER=johnmortensen
+    USER=rayanesouissi
     COMMAND_MODE=unix2003
-    CONDA_EXE=/Users/johnmortensen/opt/anaconda3/bin/conda
-    SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.htDuJuikD5/Listeners
+    SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.5wFZ6MNmH3/Listeners
     __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
     PAGER=cat
     ELECTRON_RUN_AS_NODE=1
     VSCODE_AMD_ENTRYPOINT=vs/workbench/api/node/extensionHostProcess
-    _CE_CONDA=
-    CONDA_ROOT=/Users/johnmortensen/opt/anaconda3
-    PATH=/Users/johnmortensen/opt/anaconda3/bin:/opt/local/bin:/opt/local/sbin:/Users/johnmortensen/opt/anaconda3/bin:/Users/johnmortensen/opt/anaconda3/condabin:/Users/johnmortensen/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
-    LaunchInstanceID=06C30390-0D51-4B11-A295-4C30C5E96711
+    PATH=/usr/local/bin:/Users/rayanesouissi/Library/Python/3.11/bin:/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
     __CFBundleIdentifier=com.microsoft.VSCode
-    CONDA_PREFIX=/Users/johnmortensen/opt/anaconda3
-    PWD=/Users/johnmortensen/vscode/teacher/_notebooks
+    PWD=/Users/rayanesouissi/vscode/studentrep/_notebooks
     VSCODE_HANDLES_UNCAUGHT_ERRORS=true
-    ELECTRON_NO_ATTACH_CONSOLE=1
     MPLBACKEND=module://matplotlib_inline.backend_inline
-    LANG=en_US.UTF-8
     XPC_FLAGS=0x0
-    NIX_SSL_CERT_FILE=/nix/var/nix/profiles/default/etc/ssl/certs/ca-bundle.crt
     FORCE_COLOR=1
-    _CE_M=
     XPC_SERVICE_NAME=0
-    SHLVL=5
-    HOME=/Users/johnmortensen
-    APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=1
+    SHLVL=1
+    HOME=/Users/rayanesouissi
     VSCODE_NLS_CONFIG={"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
     PYDEVD_IPYTHON_COMPATIBLE_DEBUGGING=1
-    LOGNAME=johnmortensen
-    CONDA_PYTHON_EXE=/Users/johnmortensen/opt/anaconda3/bin/python
-    VSCODE_IPC_HOOK=/Users/johnmortensen/Library/Application Support/Code/1.78-main.sock
-    VSCODE_CODE_CACHE_PATH=/Users/johnmortensen/Library/Application Support/Code/CachedData/b3e4e68a0bc097f0ae7907b217c1119af9e03435
+    HOMEBREW_PREFIX=/usr/local
+    LOGNAME=rayanesouissi
+    LC_CTYPE=UTF-8
+    VSCODE_IPC_HOOK=/Users/rayanesouissi/Library/Application Support/Code/1.81-main.sock
+    VSCODE_CODE_CACHE_PATH=/Users/rayanesouissi/Library/Application Support/Code/CachedData/6c3e3dba23e8fadc360aed75ce363ba185c49794
     CLICOLOR_FORCE=1
-    CONDA_DEFAULT_ENV=base
-    VSCODE_PID=2146
+    VSCODE_PID=35861
+    INFOPATH=/usr/local/share/info:
+    HOMEBREW_CELLAR=/usr/local/Cellar
     GIT_PAGER=cat
     VSCODE_L10N_BUNDLE_LOCATION=
-    VSCODE_CWD=/Users/johnmortensen/vscode/teacher
-    SECURITYSESSIONID=186a6
+    VSCODE_CWD=/
     _=/usr/bin/env
 
 
@@ -439,21 +613,19 @@ cat config
 
     
     show the secrets of .git
-    total 72
-    -rw-r--r--   1 johnmortensen  staff     9 Jun 11 09:09 COMMIT_EDITMSG
-    -rw-r--r--   1 johnmortensen  staff   102 Jun 11 09:09 FETCH_HEAD
-    -rw-r--r--   1 johnmortensen  staff    21 Jun 11 04:39 HEAD
-    -rw-r--r--   1 johnmortensen  staff    41 Jun 11 09:09 ORIG_HEAD
-    drwxr-xr-x   2 johnmortensen  staff    64 Jun 11 04:39 [34mbranches[m[m
-    -rw-r--r--   1 johnmortensen  staff   312 Jun 11 04:39 config
-    -rw-r--r--   1 johnmortensen  staff    73 Jun 11 04:39 description
-    drwxr-xr-x  13 johnmortensen  staff   416 Jun 11 04:39 [34mhooks[m[m
-    -rw-r--r--   1 johnmortensen  staff  4695 Jun 11 09:09 index
-    drwxr-xr-x   3 johnmortensen  staff    96 Jun 11 04:39 [34minfo[m[m
-    drwxr-xr-x   4 johnmortensen  staff   128 Jun 11 04:39 [34mlogs[m[m
-    drwxr-xr-x  34 johnmortensen  staff  1088 Jun 11 09:09 [34mobjects[m[m
-    -rw-r--r--   1 johnmortensen  staff   112 Jun 11 04:39 packed-refs
-    drwxr-xr-x   5 johnmortensen  staff   160 Jun 11 04:39 [34mrefs[m[m
+    total 88
+    -rw-r--r--   1 rayanesouissi  staff    222 Sep 20 11:10 FETCH_HEAD
+    -rw-r--r--   1 rayanesouissi  staff     21 Aug 16 21:48 HEAD
+    -rw-r--r--   1 rayanesouissi  staff     41 Sep 20 11:10 ORIG_HEAD
+    -rw-r--r--   1 rayanesouissi  staff    312 Aug 16 21:48 config
+    -rw-r--r--   1 rayanesouissi  staff     73 Aug 16 21:48 description
+    drwxr-xr-x  15 rayanesouissi  staff    480 Aug 16 21:48 [34mhooks[m[m
+    -rw-r--r--   1 rayanesouissi  staff  17900 Sep 20 11:30 index
+    drwxr-xr-x   3 rayanesouissi  staff     96 Aug 16 21:48 [34minfo[m[m
+    drwxr-xr-x   4 rayanesouissi  staff    128 Aug 16 21:48 [34mlogs[m[m
+    drwxr-xr-x  84 rayanesouissi  staff   2688 Sep 20 11:10 [34mobjects[m[m
+    -rw-r--r--   1 rayanesouissi  staff    112 Aug 16 21:48 packed-refs
+    drwxr-xr-x   5 rayanesouissi  staff    160 Aug 16 21:48 [34mrefs[m[m
     
     look at config file
     [core]
@@ -521,30 +693,12 @@ rm $file  # clean up termporary file
 
     
     File listing and status
-    -rw-r--r--  1 johnmortensen  wheel  809 Jun 11 10:43 sample.md
+    -rw-r--r--  1 rayanesouissi  wheel  809 Sep 27 23:58 sample.md
           15     132     809 sample.md
-    
-    [0m[0;1;47;90mShow Generated Markdown [0;2;30;47m========================================================[0m
-    
-    This introductory paragraph and this line and the title above are generated
-    using tee with the standard input (<<) redirection operator.
-    [0;1;91m- [0;1;91m[0;97mThis [0;97mbulleted [0;97melement [0;97mis [0;97mstill [0;97mpart [0;97mof [0;97mthe [0;97mtee [0;97mbody.
-    [0;1;91m- [0;1;91m[0;97mThis [0;97mbulleted [0;97melement [0;97mand [0;97mlines [0;97mbelow [0;97mare [0;97mgenerated [0;97musing [0;97mecho [0;97mwith [0;97mstandard
-    [0;97moutput [0;97m(>>) [0;97mredirection [0;97moperator.
-    [0;1;91m- [0;1;91m[0;97mThe [0;97mlist [0;97mdefinition, [0;97mas [0;97mis, [0;97mis [0;97musing [0;97mspace [0;97mto [0;97mseperate [0;97mlines. [0;97mThus [0;97mthe [0;97muse [0;97mof
-    [0;97mcommas [0;97mand [0;97mhyphens [0;97min [0;97moutput.
-          [0;1;91m- [0;1;91m[0;97mls: [0;97mlist [0;97mdirectory
-          [0;1;91m- [0;1;91m[0;97mcd: [0;97mchange [0;97mdirectory
-          [0;1;91m- [0;1;91m[0;97mpwd: [0;97mpresent [0;97mworking [0;97mdirectory
-          [0;1;91m- [0;1;91m[0;97mif [0;97mthen [0;97mfi: [0;97mtest [0;97mcondition
-          [0;1;91m- [0;1;91m[0;97menv: [0;97mbash [0;97menvironment [0;97mvariables
-          [0;1;91m- [0;1;91m[0;97mcat: [0;97mview [0;97mfile [0;97mcontents
-          [0;1;91m- [0;1;91m[0;97mtee: [0;97mwrite [0;97mto [0;97moutput
-          [0;1;91m- [0;1;91m[0;97mecho: [0;97mdisplay [0;97mcontent [0;97mof [0;97mstring
-          [0;1;91m- [0;1;91m[0;97mecho [0;97m"sample [0;97mtext" [0;97m>$file: [0;97mwrite [0;97mcontent [0;97mto [0;97mfile
-          [0;1;91m- [0;1;91m[0;97mecho [0;97m"sample [0;97mtext" [0;97m>>$file: [0;97mappend [0;97mcontent [0;97mto [0;97mfile
-    
-    [0m
+
+
+    bash: line 30: mdless: command not found
+
 
 ## Hack Preparation.
 > Review Tool Setup Procedures and think about some thing you could verify through a Shell notebook.
