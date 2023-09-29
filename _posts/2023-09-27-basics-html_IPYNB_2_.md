@@ -22,24 +22,6 @@ This below example shows comparison of a [heading](https://www.w3schools.com/htm
 
 
 ```python
-%%markdown
-
-### Markdown: This is a Heading
-
-This is a paragraph
-
-```
-
-
-
-### Markdown: This is a Heading
-
-This is a paragraph
-
-
-
-
-```python
 %%html
 
 <h3>HTML: This is a Heading</h3>
