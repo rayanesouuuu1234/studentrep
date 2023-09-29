@@ -250,67 +250,45 @@ console.log(titleElement.innerHTML)
 ```python
 %%html
 
-<!-- Embed Google Fonts to use in the HTML for better typography -->
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-
-<!-- Start CSS block for styles -->
+<!-- Simplified CSS styles -->
 <style>
-    /* Define a CSS animation called gradientBG which moves the background gradient */
     @keyframes gradientBG {
-        0% {
-            background-position: 0% 50%; /* Starting position of the gradient */
-        }
-        50% {
-            background-position: 100% 50%; /* Midway position of the gradient */
-        }
-        100% {
-            background-position: 0% 50%; /* Ending position (same as starting) of the gradient */
-        }
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
     }
 
-    /* Style for the gradient container */
     .gradient-container {
-        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); /* Define the gradient colors */
-        background-size: 400% 400%; /* Enlarge the background to make the animation work */
-        animation: gradientBG 15s ease infinite; /* Apply the gradientBG animation */
-        padding: 20px; /* Add padding inside the container */
-        border-radius: 8px; /* Round the corners of the container */
+        /* Modified gradient colors to shades of grey and black */
+        background: linear-gradient(-45deg, #999, #666, #333, #000);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        padding: 20px;
+        border-radius: 8px;
+        color: white; /* Set text color as white for inside this container */
+        font-size: 24px; 
+    }
+
+    .gradient-container a {
+        display: block;
+        margin-bottom: 20px;
+        text-decoration: none;
     }
 </style>
 
-<!-- Start HTML body content -->
-
 <p id="notification"></p>
 
-<!-- Create a container with a moving gradient background and some padding -->
 <div class="gradient-container">
-
-  <!-- Link to FIFA's official website with an id of "x" -->
-  <!-- The link is styled with the Pacifico font, white color, larger font, and some margin -->
-  <a id="x" href="https://www.fifa.com" style="color: white; font-size: 24px; display: block; margin-bottom: 20px; font-family: 'Pacifico', cursive; text-decoration: none;">Link to FIFA</a>
-  
-  <!-- Link to Manchester United's website with an id of "y" -->
-  <!-- The link is styled similarly to the above -->
-  <a id="y" href="https://www.manutd.com" style="color: white; font-size: 24px; display: block; font-family: 'Pacifico', cursive; text-decoration: none;">Link to Manchester United</a>
-  
+  <a id="x" href="https://www.fifa.com">Link to FIFA</a>
+  <a id="y" href="https://www.manutd.com">Link to Manchester United</a>
 </div>
 
-<!-- Start JavaScript block to manipulate the link URLs -->
-
 <script>
-    // Get references to the two links using their respective ids
     var linkToFIFA = document.getElementById("x");
     var linkToManUtd = document.getElementById("y");
-
-    // Store the original href attributes of the links
-    var fifaURL = linkToFIFA.href;
-    var manUtdURL = linkToManUtd.href;
-
+    
     // Swap the href attributes of the two links
-    linkToFIFA.href = manUtdURL;
-    linkToManUtd.href = fifaURL;
-
-    // Change the inner HTML of the top <p> tag to "switched!"
+    [linkToFIFA.href, linkToManUtd.href] = [linkToManUtd.href, linkToFIFA.href];
+    
     document.getElementById("notification").innerHTML = "switched!";
 </script>
 
@@ -318,67 +296,45 @@ console.log(titleElement.innerHTML)
 
 
 
-<!-- Embed Google Fonts to use in the HTML for better typography -->
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-
-<!-- Start CSS block for styles -->
+<!-- Simplified CSS styles -->
 <style>
-    /* Define a CSS animation called gradientBG which moves the background gradient */
     @keyframes gradientBG {
-        0% {
-            background-position: 0% 50%; /* Starting position of the gradient */
-        }
-        50% {
-            background-position: 100% 50%; /* Midway position of the gradient */
-        }
-        100% {
-            background-position: 0% 50%; /* Ending position (same as starting) of the gradient */
-        }
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
     }
 
-    /* Style for the gradient container */
     .gradient-container {
-        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); /* Define the gradient colors */
-        background-size: 400% 400%; /* Enlarge the background to make the animation work */
-        animation: gradientBG 15s ease infinite; /* Apply the gradientBG animation */
-        padding: 20px; /* Add padding inside the container */
-        border-radius: 8px; /* Round the corners of the container */
+        /* Modified gradient colors to shades of grey and black */
+        background: linear-gradient(-45deg, #999, #666, #333, #000);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        padding: 20px;
+        border-radius: 8px;
+        color: white; /* Set text color as white for inside this container */
+        font-size: 24px; 
+    }
+
+    .gradient-container a {
+        display: block;
+        margin-bottom: 20px;
+        text-decoration: none;
     }
 </style>
 
-<!-- Start HTML body content -->
-
 <p id="notification"></p>
 
-<!-- Create a container with a moving gradient background and some padding -->
 <div class="gradient-container">
-
-  <!-- Link to FIFA's official website with an id of "x" -->
-  <!-- The link is styled with the Pacifico font, white color, larger font, and some margin -->
-  <a id="x" href="https://www.fifa.com" style="color: white; font-size: 24px; display: block; margin-bottom: 20px; font-family: 'Pacifico', cursive; text-decoration: none;">Link to FIFA</a>
-
-  <!-- Link to Manchester United's website with an id of "y" -->
-  <!-- The link is styled similarly to the above -->
-  <a id="y" href="https://www.manutd.com" style="color: white; font-size: 24px; display: block; font-family: 'Pacifico', cursive; text-decoration: none;">Link to Manchester United</a>
-
+  <a id="x" href="https://www.fifa.com">Link to FIFA</a>
+  <a id="y" href="https://www.manutd.com">Link to Manchester United</a>
 </div>
 
-<!-- Start JavaScript block to manipulate the link URLs -->
-
 <script>
-    // Get references to the two links using their respective ids
     var linkToFIFA = document.getElementById("x");
     var linkToManUtd = document.getElementById("y");
 
-    // Store the original href attributes of the links
-    var fifaURL = linkToFIFA.href;
-    var manUtdURL = linkToManUtd.href;
-
     // Swap the href attributes of the two links
-    linkToFIFA.href = manUtdURL;
-    linkToManUtd.href = fifaURL;
+    [linkToFIFA.href, linkToManUtd.href] = [linkToManUtd.href, linkToFIFA.href];
 
-    // Change the inner HTML of the top <p> tag to "switched!"
     document.getElementById("notification").innerHTML = "switched!";
 </script>
 

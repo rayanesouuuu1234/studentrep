@@ -187,7 +187,6 @@ Div (groups together related content)
         <button>Click for more about soccer</button>
     </a>
 </div>
-
 ```
 
 
