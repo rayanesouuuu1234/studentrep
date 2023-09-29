@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 1.4 Correcting errors
+title: Correcting Errors
 description: Practice with identifying and correcting code blocks
 type: hacks
-author: Safin Singh and Rohan Juneja
+author: Rayane Souissi
 permalink: /basics/js-debug
 courses: {'csp': {'week': 5}}
 ---
