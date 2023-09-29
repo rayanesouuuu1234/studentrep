@@ -6,6 +6,7 @@ description: An introduction to basic HTML, and resources to learn more.
 type: hacks
 permalink: /basics/html
 author: Rayane Souissi
+comments: True
 courses: {'csp': {'week': 5}}
 ---
 
