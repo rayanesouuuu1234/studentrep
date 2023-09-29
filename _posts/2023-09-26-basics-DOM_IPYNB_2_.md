@@ -5,7 +5,6 @@ description: A Tech Talk on how javascript can interact with HTML DOM
 type: hacks
 permalink: /basics/dom
 author: Rayane Souissi
-comments: true
 courses: {'csp': {'week': 5}}
 ---
 

@@ -5,7 +5,6 @@ description: A Tech Talk on how to use javascript
 type: hacks
 permalink: /basics/javascript
 author: Rayane Souissi
-comments: true
 courses: {'csp': {'week': 5}}
 ---
 

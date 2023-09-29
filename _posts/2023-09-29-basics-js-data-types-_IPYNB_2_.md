@@ -5,7 +5,6 @@ description: A Tech Talk on javascript data types and how to use with lists
 type: hacks
 permalink: /basics/datatypes
 author: Rayane Souissi
-comments: true
 courses: {'csp': {'week': 5}}
 ---
 
