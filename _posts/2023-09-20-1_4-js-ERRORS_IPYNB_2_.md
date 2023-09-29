@@ -5,6 +5,7 @@ description: Practice with identifying and correcting code blocks
 type: hacks
 author: Rayane Souissi
 permalink: /basics/js-debug
+comments: true
 courses: {'csp': {'week': 5}}
 ---
 
