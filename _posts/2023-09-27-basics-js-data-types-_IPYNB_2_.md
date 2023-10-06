@@ -48,7 +48,3 @@ console.log(displayType(17));         // Display type for a number
 console.log(displayType('soccer'));   // Display type for a string
 console.log(displayType(true));       // Display type for a boolean
 ```
-
-
-    <IPython.core.display.Javascript object>
-
