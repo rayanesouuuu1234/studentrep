@@ -5,10 +5,10 @@ layout: post
 title: College Board Quiz
 description: CB quiz
 type: hacks
-courses: {'csp': {'week': 12}}
+courses: {'csp': {'week': 111}}
 ---
 # College Board Quiz
-- Score: 60/66
+- Score: 58/66
 
 
 ## Corrections
